@@ -1,0 +1,26 @@
+/* Main Styles Import File */
+/* This file imports all modular CSS files in the correct order */
+
+/* 1. Global Styles */
+@import './globals.css';
+
+/* 2. Scrollbar Customization */
+@import './scrollbar.css';
+
+/* 3. Animations and Transitions */
+@import './animations.css';
+
+/* 4. Form Styles */
+@import './forms.css';
+
+/* 5. Component Styles */
+@import './components.css';
+
+/* 6. Layout Styles */
+@import './layout.css';
+
+/* 7. Responsive Design */
+@import './responsive.css';
+
+/* 8. Utility Classes */
+@import './utilities.css';
