@@ -4,7 +4,7 @@ import Layout from '../Component/Layout';
 import LoadingSpinner from '../Component/LoadingSpinner';
 import Alert from '../Component/Alert';
 import { adminAPI } from '../Services/api';
-import { formatDate, formatCurrency } from '../utils/helpers';
+// Format functions not needed for this component
 import { ATTENDANCE_STATUS } from '../utils/constants';
 
 const AttendanceManagement = () => {

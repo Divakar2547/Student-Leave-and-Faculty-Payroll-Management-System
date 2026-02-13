@@ -57,7 +57,7 @@ export const MESSAGES = {
   SESSION_EXPIRED: 'Your session has expired. Please login again.'
 };
 
-export default {
+const CONSTANTS = {
   USER_ROLES,
   LEAVE_STATUS,
   LEAVE_TYPES,
@@ -66,3 +66,5 @@ export default {
   DATE_FORMATS,
   MESSAGES
 };
+
+export default CONSTANTS;

@@ -3,7 +3,6 @@ import {
   FiCalendar,
   FiClock,
   FiDollarSign,
-  FiTrendingUp,
 } from 'react-icons/fi';
 import Layout from '../Component/Layout';
 import LoadingSpinner from '../Component/LoadingSpinner';

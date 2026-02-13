@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { FiPlus, FiEdit2, FiTrash2, FiDownload, FiLoader } from 'react-icons/fi';
+import { FiEdit2, FiDownload, FiLoader } from 'react-icons/fi';
 import Layout from '../Component/Layout';
 import LoadingSpinner from '../Component/LoadingSpinner';
 import Alert from '../Component/Alert';
 import { adminAPI } from '../Services/api';
-import { formatCurrency, formatDate } from '../utils/helpers';
+import { formatCurrency } from '../utils/helpers';
 
 const PayrollManagement = () => {
   const [payroll, setPayroll] = useState([]);

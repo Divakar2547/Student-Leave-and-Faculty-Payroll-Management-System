@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FiEdit2, FiSave, FiX } from 'react-icons/fi';
 import Layout from '../Component/Layout';
 import LoadingSpinner from '../Component/LoadingSpinner';
 import Alert from '../Component/Alert';
 import useAuth from '../hooks/useAuth';
-import { authAPI } from '../Services/api';
 
 const Profile = () => {
   const { user } = useAuth();

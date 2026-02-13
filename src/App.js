@@ -29,7 +29,7 @@ import PayrollManagement from './Pages/PayrollManagement';
 import { USER_ROLES } from './utils/constants';
 
 function App() {
-  const { isAuthenticated, user, loading } = useAuth();
+  const { user, loading } = useAuth();
 
   if (loading) {
     return (

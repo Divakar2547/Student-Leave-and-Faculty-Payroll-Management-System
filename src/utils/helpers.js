@@ -97,7 +97,7 @@ export const truncate = (text, length = 50) => {
   return text.length > length ? text.substring(0, length) + '...' : text;
 };
 
-export default {
+const HELPERS = {
   formatDate,
   calculateDaysBetween,
   validateEmail,
@@ -109,3 +109,5 @@ export default {
   parseError,
   truncate,
 };
+
+export default HELPERS;
